@@ -19,7 +19,6 @@ qplot(data=reddit,x=marital.status)
 reddit$age.range<-ordered(reddit$age.range,levels<-c('Under 18', '18-24','25-34','45-54','55-64','65 of Above'))
 qplot(data=reddit,x=age.range)
 
-qplot(x=education, data=subset(reddit,!is.na(age.range)),binwidth=10,geom='freqpoly',color=age.range)
 
 
 names(facebook)
