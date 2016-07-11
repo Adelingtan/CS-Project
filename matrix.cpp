@@ -20,7 +20,7 @@ int main(){
     int matrix_1[n][n];
     int count =0;
     while(count<2){
-        cout << "Enter first matrix:"<<endl;
+        cout << "Enter matrix number "<<count+1<<" :"<<endl;
         for (int i=0;i<n;i++){
             for (int j=0;j<n;j++){
                 cout << "A[" << i+1 << "][" << j+1 << "]=";
@@ -31,7 +31,7 @@ int main(){
                 }
             }
         }
-        cout << "The first matrix:"<<endl;
+        cout << "The matrix you entered is:"<<endl;
         for (int i=0;i<n;i++){
             for (int j=0;j<n;j++){
                 if(count==0){
